@@ -1,4 +1,7 @@
 <!-- Esto es un comentario -->
+<!-- Vamos a importar un tipo de letra desde google para esto usamos el siguiente elemeno -->
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<!-- Con esto empezamos la construccion de HTML -->
 <html>
 <!-- esto es una forma de cambiar el color a un elemento, pero esto solo cambia el color de un solo elemento
 una forma para poder hacer esto de una manera mas sencilla seria utilizando CSS (Cascading Style Sheet) para
@@ -17,7 +20,10 @@ esto vamos a utilizar CSS <style></style> -->
   /* vamos a cambiar el tamaño de los pagrafos y la fuente*/
   p{
     font-size: 12px;
-    font-family: monospace;
+    /*font-family: monospace; */
+    /* podemos especificar 2 tipos de letra en caso que en algun navegador uno de estos tipos de letra no este disponible
+     * siempre va a tratar de utilizarse el que declaramos como principal */
+     font-family: Lobster, sans-serif;
   }
 </style>
 
